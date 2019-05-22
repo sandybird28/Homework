@@ -1,0 +1,36 @@
+.main{
+    width: 570px;
+    margin: 0 auto ;
+    background-color: lightgrey;
+    border: 3px solid darkgrey;
+    text-align: center;
+}
+.main b i{
+    font-size: 45px;
+}
+.main i{
+    font-size: 35px;
+}
+
+.date{
+    display: inline-block;
+    border: 2px solid grey;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    height: 40px;
+    width: 60px;
+    margin: 5px;
+}
+
+.weekend{
+    color: rgb(109, 48, 48);
+    border: 2px solid rgb(161, 113, 113);
+    background-color: rgb(189, 172, 172);
+}
+.other{
+    color: rgb(117, 116, 116);
+}
+.today{
+    border: 2px solid rgb(117, 31, 31);
+}
