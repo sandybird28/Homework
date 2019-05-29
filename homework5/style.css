@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(27, 25, 49);    
+}
+.bbg{
+    width: 1024px;
+    height: 768px;
+
+    background-image: url(img/space.jpg);
+}
+div{position: absolute;}
+#sat {
+    transform: rotate(-45deg) scale(.6);
+    bottom: 0; right: 50px;
+}
+#ass {
+    transform: rotate(15deg) scale(.5);
+    top: 0; 
+    right: 50px;
+}
+#ast1{
+    transform: rotate(250deg) scale(.7);
+    top: 250px;
+    right: 150px;
+}
+#ast2{
+    transform: rotate(200deg) scale(.2);
+    bottom: -200px;
+    left: -150px;
+}
+#brs{
+    transform: rotate(0deg) scale(.2);
+    bottom: -30px;
+    left: 15px;
+}
+#earth{
+    transform: rotate(0deg) scale(.5);
+    left: -30px;
+    top: 150px;
+    z-index: 2;
+}
+#mars{
+    transform: rotate(15deg) scale(.75);
+    right: 0px;
+    top: 120px;
+}
+#moon{
+    transform: rotate(15deg) scale(.4);
+    left: 60px;
+    top: 160px;
+}
+#rdstr{
+    transform: scale(.5);
+    left: 900px;
+    top: 150px;
+}
+#rkt{
+    transform: rotate(30deg) scale(.3);
+    left: 300px;
+    top: 150px;   
+}
+#bender{
+    transform: rotate(-80deg) scale(.3);
+    left: 200px;
+    bottom: 150px;
+}
+#bh{
+    transform: rotate(0deg) scale(.8);
+    left: 400px;
+    top: 0px;
+}
+#plt{
+    transform: rotate(0deg) scale(.25);
+    left: 400px;
+    bottom: -200px;
+}
+#rvr{
+    transform: rotate(15deg) scale(.1);
+    right: -80px;
+    top: 25px;
+}
+#spt{
+    transform: rotate(95deg) scale(.4);
+    left: 600px;
+    bottom: 150px;
+}    
