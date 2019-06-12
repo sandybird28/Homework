@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'halbfette_egyptienneregular';
+    src: url('fonts/16908-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body{
     margin: 0;
 }
@@ -18,7 +25,8 @@ img[alt=html5_logo]{
 }
 #welcome{
     text-align: center;
-    font: 60px bold;
+    font-size: 80px;
+    font-family: 'halbfette_egyptienneregular';
 }
 .menu ul, .sidebar ul{
     list-style: none; 
