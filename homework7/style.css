@@ -1,0 +1,20 @@
+table{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    width: 800px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    vertical-align: top;
+
+ 
+}
+.txt_r{
+    text-align: right;
+    padding-right: 5px;
+}
+.txt_c{
+    text-align: center;
+}
