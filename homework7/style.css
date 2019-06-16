@@ -1,20 +1,52 @@
-table{
+.tab_border{
+    border: 1px solid black;
+    width: 850px;
+    padding-left: 3px;
+    padding-right: 1px;
+}
+.table{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    width: 800px;
+    width: 100%;
     border: 1px solid black;
     border-collapse: collapse;
 }
-td{
+.table td{
     border: 1px solid black;
     vertical-align: top;
-
- 
+    padding: 0 10px 8px 8px;
 }
-.txt_r{
+.caption{
+    padding: 8px 0;
+    font-weight: bold;
+}
+td.bord2px{
+    border: 2px solid black;
+}
+td.b_top3{
+    border-top: 3px solid black;
+}
+td.b_bot{
+    border-bottom: 2px solid black;
+}
+td.b_rth{
+    border-right: 2px solid black;
+}
+td.b_lft{
+    border-left: 2px solid black;
+}
+td.txt_r{
     text-align: right;
-    padding-right: 5px;
 }
-.txt_c{
+td.txt_c{
     text-align: center;
+}
+td.txt_bot{
+    vertical-align: bottom;
+}
+td.b_lft0{
+    border-left: 0px;
+}
+td.b_rth0{
+    border-right: 0px;
 }
