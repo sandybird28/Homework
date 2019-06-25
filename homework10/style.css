@@ -189,17 +189,17 @@ a{
     text-shadow: 0.515px 0.857px 0px rgba(68, 70, 79, 0.5);
 
 }
-article.home-news-item:nth-child(2){
-    margin: 0 25px;
-}
+
 article.home-news-item{
     float: left;
     width: 32%;
+    margin-right: 2%;
     background-color: #f5f6f8;    
     box-shadow: 0px 1px 3px 0px rgba(88, 88, 88, 0.25);
     height: 456px;
-
-
+}
+article.home-news-item:nth-child(3n){
+    margin-right: 0;
 }
 .home-news-container::after{
     content: ''; 
@@ -220,38 +220,33 @@ a.home-news-item-image img{
 a.home-news-item-title{
     text-decoration: none;
     display: block;
-    padding: 25px;
-
 }
 
-a.home-news-item-title p, a.home-news-item-title h3{
+p.home-news-item-text, a.home-news-item-title h3{
     margin: 0;
 }
 a.home-news-item-title h3{
-    font-size: 20px;
+    font-size: 19px;
+    padding: 25px 25px 20px 25px;
 }
-
-a.home-news-item-title p{
+p.home-news-item-text{
     color: #44464f;
-    margin-top: 20px;
+    padding: 0 25px;
 }
 
 /* footer */
 
 #footer{
     background-color: #669933;
+    padding: 31px 0;
 }
 
 section.footer-col{
     float: left;
-    padding-top: 31px;
     width: 270px;
-
-
 }
 section.footer-col:first-child, section.footer-col:last-child{
     width: 360px;
-
 }
 #footer::after{
     content: ''; 
@@ -265,10 +260,13 @@ section.footer-col h4.footer-col-title{
     color: #ffcc00;
     text-transform: uppercase;
     padding-left: 50px;
+    margin: 0;
+    margin-top: 23px;
+    font-size: 18px;
 }  
 nav.footer-menu li{
     text-align-last: left;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 nav.footer-menu li a{
     text-decoration: none;
@@ -276,8 +274,6 @@ nav.footer-menu li a{
     text-transform: uppercase;
     padding-left: 50px;  
 }
-
-
 .footer-news a.footer-news-image{
     display: block;
     float: left;
@@ -290,9 +286,8 @@ nav.footer-menu li a{
     margin-bottom: 7px;
 }
 .footer-news li{
-    margin-bottom: 24px;
+    margin: 24px 0;
 }
-
 .footer-news li::after{
     content: ''; 
     display: block;
@@ -318,12 +313,15 @@ section.footer-col:last-child b{
 section.footer-col:last-child h4{
     padding-left: 100px;
 }
+a.footer-phone{
+    font-size: 24px;
+}
 section.footer-col:last-child a.footer-mail{
     color: #ffcc00;
     text-decoration: underline;
 }
 address.footer-address{
-    background: url('img/addres-i.png') no-repeat 100px center;
+    background: url('img/addres-i.png') no-repeat 100px top;
 }
 a.footer-phone{
     background: url('img/phone-i.png') no-repeat 100px center;
@@ -332,5 +330,5 @@ a.footer-mail{
     background: url('img/mail-i.png') no-repeat 100px center;
 }
 div.footer-worktime{
-    background: url('img/clock-i.png') no-repeat 100px center;
+    background: url('img/clock-i.png') no-repeat 100px top;
 }
